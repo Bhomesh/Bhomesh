@@ -2,7 +2,7 @@
   <img src="https://your-image-url-here.com/profile-banner.png" alt="Bhomesh's Banner" width="100%">
 </div>
 
-# 👋 Hi there, I'm Bhomesh!
+<h1 align="center">👋 Hi there, I'm Bhomesh!</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bhomesh"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
@@ -11,47 +11,59 @@
   <a href="https://your-portfolio-website.com"><img src="https://img.shields.io/badge/-Portfolio-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"/></a>
 </p>
 
-## 🚀 About Me
-I'm a passionate developer with a love for creating innovative solutions. My journey in the world of coding has been an exciting adventure, and I'm always eager to learn and grow.
-
-## 💻 Tech Stack
-
-- 🌐 &nbsp;
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap&logoColor=563D7C)
-  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
-  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-- 🛢 &nbsp;
-  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
-- ⚙️ &nbsp;
-  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
-- 🔧 &nbsp;
-  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-  ![RStudio](https://img.shields.io/badge/-RStudio-333333?style=flat&logo=rstudio)
-  ![Eclipse](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
-- 🖥 &nbsp;
-  ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
-  ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
-  ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
-
-## 🛠️ Technologies & Tools
+<h2 align="center">🚀 About Me</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  I'm a passionate developer with a love for creating innovative solutions. My journey in the world of coding has been an exciting adventure, and I'm always eager to learn and grow.
 </p>
 
-## 🌟 Featured Projects
+<h2 align="center">🛠️ Technologies & Tools</h2>
+
+<details>
+  <summary>Click to expand</summary>
+  
+  <h3>Frontend</h3>
+  <p>
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap" />
+    <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  </p>
+  
+  <h3>Backend</h3>
+  <p>
+    <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django" />
+  </p>
+  
+  <h3>Database</h3>
+  <p>
+    <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+    <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  </p>
+  
+  <h3>DevOps & Tools</h3>
+  <p>
+    <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+    <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+    <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code" />
+  </p>
+  
+  <h3>Design</h3>
+  <p>
+    <img src="https://img.shields.io/badge/-Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white" />
+    <img src="https://img.shields.io/badge/-InDesign-EE3D8F?style=flat-square&logo=adobe-indesign&logoColor=white" />
+  </p>
+</details>
+
+<h2 align="center">🌟 Featured Projects</h2>
 
 <table>
   <tr>
@@ -88,7 +100,7 @@ I'm a passionate developer with a love for creating innovative solutions. My jou
   </tr>
 </table>
  
-## 📈 GitHub Stats
+<h2 align="center">📈 GitHub Stats</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bhomesh&show_icons=true&theme=radical" alt="Bhomesh's GitHub Stats" />
@@ -97,11 +109,13 @@ I'm a passionate developer with a love for creating innovative solutions. My jou
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhomesh&theme=radical" alt="Bhomesh's GitHub Streak" />
 </p>
 
-## 🤝 Open to Collaboration
+<h2 align="center">🤝 Open to Collaboration</h2>
 
-I'm always excited to work on new projects and collaborate with fellow developers. If you have any interesting ideas or projects, feel free to reach out!
+<p align="center">
+  I'm always excited to work on new projects and collaborate with fellow developers. If you have any interesting ideas or projects, feel free to reach out!
+</p>
 
-## 📚 Latest Blog Posts
+<h2 align="center">📚 Latest Blog Posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
 - [Blog Post 1 Title](https://yourblog.com/post1)
