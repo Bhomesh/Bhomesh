@@ -79,12 +79,26 @@
 
 <h2 align="center">📚 Latest Blog Posts</h2>
 
-<!-- BLOG-POST-LIST:START -->
-- [Supercharge your zsh setup with these essential plugins](https://medium.com/@BhomeshRazdan/supercharge-your-zsh-setup-with-these-essential-plugins-2d3dfbb7cec0)
-<!-- BLOG-POST-LIST:END -->
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://medium.com/@BhomeshRazdan/supercharge-your-zsh-setup-with-these-essential-plugins-2d3dfbb7cec0">
+          <img src="https://img.shields.io/badge/Supercharge%20your%20zsh%20setup-Read%20Now-brightgreen?style=for-the-badge&logo=medium" alt="Blog Post - Supercharge your zsh setup">
+        </a>
+      </td>
+    </tr>
+    <!-- Add more rows here for additional blog posts -->
+  </table>
+</div>
+
+<p align="center">
+  <a href="https://medium.com/@BhomeshRazdan">
+    <img src="https://img.shields.io/badge/Read%20More%20on%20Medium-Follow%20Me-black?style=for-the-badge&logo=medium" alt="Follow on Medium">
+  </a>
+</p>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=bhomesh&color=blueviolet" alt="Profile views" />
   <p>⭐️ From <a href="https://github.com/bhomesh">Bhomesh</a></p>
 </div>
-
