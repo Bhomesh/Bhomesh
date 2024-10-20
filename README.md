@@ -56,7 +56,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white"/>
   <img src="https://img.shields.io/badge/-Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-InDesign-EE3D8F?style=flat-square&logo=adobe-indesign&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-InDesign-EE3D8F?style=for-the-badge&logo=adobe-indesign&logoColor=white"/>
 </p>
 
  
