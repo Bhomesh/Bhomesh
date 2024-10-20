@@ -25,8 +25,8 @@
 </p>
 
 <div align="center">
-  <details>
-    <summary><b>🧑‍💻 More About Me</b></summary>
+
+<h2><b>🧑‍💻 More About Me</b></h2>
     <br>
     <p>
       🔭 I'm currently working on revolutionizing web experiences
@@ -35,13 +35,12 @@
       <br>💬 Ask me about JavaScript, React, or any tech-related stuff
       <br>⚡ Fun fact: I can solve a Rubik's cube in under 1 minute!
     </p>
-  </details>
 </div>
 
 <div align="center">
   <h3>When I'm not coding, you'll find me:</h3>
   <p>
-    🎸 Playing guitar | 📚 Reading sci-fi novels | 🏋️‍♂️ At the gym | 🌿 Tending to my plants
+    🎸 Playing Games | 📚 Reading Self-Help Books | 🏋️‍♂️ At the gym | 🌿 Tending to my plants
   </p>
 </div>
 
