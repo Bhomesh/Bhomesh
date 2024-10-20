@@ -13,9 +13,37 @@
 
 <h2 align="center">🚀 About Me</h2>
 
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;DevOps+Enthusiast;Open+Source+Contributor;Continuous+Learner" alt="Typing SVG" />
+</div>
+
 <p align="center">
-  I'm a passionate developer with a love for creating innovative solutions. My journey in the world of coding has been an exciting adventure, and I'm always eager to learn and grow.
+  <em>
+    Passionate about crafting elegant solutions to complex problems. 
+    <br>My code is my canvas, and innovation is my paintbrush.
+  </em>
 </p>
+
+<div align="center">
+  <details>
+    <summary><b>🧑‍💻 More About Me</b></summary>
+    <br>
+    <p>
+      🔭 I'm currently working on revolutionizing web experiences
+      <br>🌱 I'm currently learning WEB3 and DevOps
+      <br>👯 I'm looking to collaborate on open-source projects
+      <br>💬 Ask me about JavaScript, React, or any tech-related stuff
+      <br>⚡ Fun fact: I can solve a Rubik's cube in under 1 minute!
+    </p>
+  </details>
+</div>
+
+<div align="center">
+  <h3>When I'm not coding, you'll find me:</h3>
+  <p>
+    🎸 Playing guitar | 📚 Reading sci-fi novels | 🏋️‍♂️ At the gym | 🌿 Tending to my plants
+  </p>
+</div>
 
 <h2 align="center">🛠️ Technologies & Tools</h2>
 <div class="flex flex-row justify-center items-center">
