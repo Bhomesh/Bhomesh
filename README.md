@@ -49,7 +49,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bhomesh&show_icons=true&theme=radical" alt="Bhomesh's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhomesh&theme=radical" alt="Bhomesh's GitHub Streak" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhomesh&theme=radical" alt="Bhomesh's GitHub Streak" width="51%" />
 </p>
 
 <h2 align="center">🤝 Open to Collaboration</h2>
