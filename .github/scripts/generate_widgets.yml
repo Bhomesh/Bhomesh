@@ -1,0 +1,91 @@
+
+---
+
+# Automation: GitHub Action workflows & helper scripts
+
+Below are 3 GitHub Actions + small scripts you add to your repo. They will generate/commit the widget images and update the README automatically (run on schedule and on push).
+
+> **Secrets needed (set in repo Settings → Secrets):**
+- `GRAFANA_URL` (if using Grafana snapshot API)  
+- `GRAFANA_API_KEY` (if required)  
+- `LASTFM_API_KEY` (for now playing) — optional  
+- `LASTFM_USER` — optional  
+- `GH_TOKEN` — already provided in Actions as `secrets.GITHUB_TOKEN` (used to commit files)
+
+---
+
+## 1) `.github/workflows/generate_widgets.yml`
+Runs on push and a schedule (every 1 hour by default). It:
+- pulls a Grafana panel image (or uses test data)
+- generates `quote_banner.svg` from YAML list
+- renders mermaid diagram to SVG
+- generates terminal GIF using asciinema/asciicast (or a prebuilt GIF alternative)
+- creates skill heatmap SVG from YAML
+- commits `widgets/*` to repo
+
+```yaml
+name: Generate widgets & update README
+on:
+  push:
+  schedule:
+    - cron: '0 * * * *' # hourly
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml pillow cairosvg mermaid-cli
+
+      - name: Generate Grafana snapshot (if configured)
+        env:
+          GRAFANA_URL: ${{ secrets.GRAFANA_URL }}
+          GRAFANA_API_KEY: ${{ secrets.GRAFANA_API_KEY }}
+        run: |
+          python .github/scripts/fetch_grafana_panel.py --panel "devops_overview" --out widgets/grafana_overview.png || echo "Grafana fetch failed; using fallback"
+      
+      - name: Generate dynamic quote SVG
+        run: |
+          python .github/scripts/generate_quote_svg.py data/quotes.yml widgets/quote_banner.svg
+
+      - name: Render mermaid cloud diagram to SVG
+        run: |
+          npx -y @mermaid-js/mermaid-cli -i diagrams/cloud-arch.mmd -o widgets/cloud-arch.svg
+
+      - name: Generate Now Playing card
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: ${{ secrets.LASTFM_USER }}
+        run: |
+          python .github/scripts/generate_now_playing.py --out widgets/now_playing.svg || echo "Now playing generated fallback"
+
+      - name: Generate Currently Learning card
+        run: |
+          python .github/scripts/generate_learning_card.py data/learning.yml widgets/currently_learning.svg
+
+      - name: Generate terminal landing GIF
+        # Simple approach: render a pre-defined svg or gif updated with timestamp
+        run: |
+          python .github/scripts/generate_terminal_gif.py widgets/terminal_landing.gif
+
+      - name: Generate skill heatmap SVG
+        run: |
+          python .github/scripts/generate_skill_heatmap.py data/skills.yml widgets/skill-heatmap.svg
+
+      - name: Commit generated widgets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add widgets/ || true
+          git commit -m "chore: update live widgets [ci skip]" || echo "No changes to commit"
+          git push
