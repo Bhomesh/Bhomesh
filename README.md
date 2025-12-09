@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://your-banner-url.com/devops-banner.png" alt="Bhomesh DevOps Banner" width="100%">
-</div>
-
 <h1 align="center">👋 Hi, I'm <span style="color:#2E9EFF">Bhomesh Razdan</span></h1>
 
 <p align="center">
