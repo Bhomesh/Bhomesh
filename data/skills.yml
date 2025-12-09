@@ -1,0 +1,7 @@
+skills:
+  - name: "Terraform"; score: 95
+  - name: "Kubernetes"; score: 90
+  - name: "AWS"; score: 92
+  - name: "CI/CD"; score: 88
+  - name: "Python"; score: 80
+  - name: "Monitoring"; score: 85
