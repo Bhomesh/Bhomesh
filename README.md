@@ -1,4 +1,7 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#2E9EFF">Bhomesh Razdan</span></h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=160&section=header&text=Bhomesh%20Razdan&fontSize=44&fontColor=ffffff&animation=fadeIn" alt="👋 Hi, I'm Bhomesh Banner"/>
+</p>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bhomesh"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"></a>
