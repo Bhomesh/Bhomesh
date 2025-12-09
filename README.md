@@ -1,131 +1,172 @@
 <div align="center">
-  <img src="https://your-image-url-here.com/profile-banner.png" alt="Bhomesh's Banner" width="100%">
+  <img src="https://your-banner-url.com/devops-banner.png" alt="Bhomesh DevOps Banner" width="100%">
 </div>
 
-<h1 align="center">👋 Hi there, I'm Bhomesh!</h1>
+<h1 align="center">👋 Hi, I'm <span style="color:#2E9EFF">Bhomesh Razdan</span></h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/bhomesh"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" height="25"/></a>
-  <a href="https://twitter.com/bhomesh"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" height="25"/></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white" height="25"/></a>
-  <a href="https://your-portfolio-website.com"><img src="https://img.shields.io/badge/-Portfolio-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" height="25"/></a>
+  <a href="https://www.linkedin.com/in/bhomesh"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"></a>
+  <a href="mailto:bhomeshrazdan.work@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"></a>
+  <a href="https://github.com/bhomesh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" height="25"></a>
+  <a href="https://medium.com/@BhomeshRazdan"><img src="https://img.shields.io/badge/Blog-Medium-black?style=for-the-badge&logo=medium" height="25"></a>
 </p>
 
-<h2 align="center">🚀 About Me</h2>
+---
+
+<h2 align="center">🚀 DevOps Engineer | Cloud | SRE | Automation</h2>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;DevOps+Enthusiast;Open+Source+Contributor;Continuous+Learner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=1000&color=2E9EFF&center=true&vCenter=true&width=600&lines=DevOps+Engineer+%7C+AWS+%7C+GCP+%7C+Kubernetes;Terraform+%7C+CI%2FCD+%7C+Automation+Specialist;Improving+Reliability+%26+Scaling+Cloud+Infrastructure;Building+Highly+Available+Systems" />
 </div>
 
+---
+
+## 🧑‍💻 **About Me**
+
+I am a **DevOps Engineer** with hands-on experience in:
+
+- Designing & scaling cloud infrastructure (AWS, AZURE, GCP)
+- Infrastructure as Code (Terraform, Terragrunt, CloudFormation)
+- CI/CD automation (GitHub Actions, Jenkins, GitLab CI)
+- Kubernetes (EKS, AKS, GKE), Helm, Istio, Observability
+- Cloud security hardening with **Wiz, IAM, Vault**
+  
+💡 I love **automation**, reducing toil, improving **reliability**, and building **cost-efficient** infrastructure.  
+🔥 Currently preparing for **AWS SAA**, **CKA**, and **Terraform Associate** certifications.
+
+---
+
+## 🧩 **Featured DevOps Projects**
+
+### ⚡ **Self-Hosted GitHub Runner Automation (Terraform + ASG + Packer)**  
+- Built scalable ASG-based GitHub runners on AWS.  
+- Custom AMI using Packer → reduced boot time by **40%**.  
+- Achieved **60% cost reduction** using spot instances.
+
+### 🛡 **Automated RDS Backup & Validation (AWS Lambda + Boto3)**  
+- Automated snapshot, restore-to-test & cleanup using EventBridge.  
+- Reduced manual backup validation from **2 hours → 10 minutes**.  
+- Dockerized Lambda & integrated Slack/Jira alerts.
+
+---
+
+## 🛠️ **Technologies & Tools**
+
+### **Cloud & Infra**
+
+**AWS**  
+![EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/AWS-S3-569A31?style=flat-square&logo=amazonaws&logoColor=white)
+![RDS](https://img.shields.io/badge/AWS-RDS-527FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?style=flat-square&logo=aws-lambda&logoColor=white)
+![EKS](https://img.shields.io/badge/AWS-EKS-FF9900?style=flat-square&logo=amazon-eks&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/AWS-CloudWatch-FF4F8B?style=flat-square&logo=amazon-cloudwatch&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-4053D6?style=flat-square&logo=amazon-dynamodb&logoColor=white)
+![VPC](https://img.shields.io/badge/AWS-VPC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudFront](https://img.shields.io/badge/AWS-CloudFront-D05C4B?style=flat-square&logo=amazonaws&logoColor=white)
+![Route53](https://img.shields.io/badge/AWS-Route53-FF9900?style=flat-square&logo=amazon-route-53&logoColor=white)
+![IAM](https://img.shields.io/badge/AWS-IAM-DD344C?style=flat-square&logo=aws-iam&logoColor=white)
+![SNS](https://img.shields.io/badge/AWS-SNS-FF9900?style=flat-square&logo=aws-sns&logoColor=white)
+![SQS](https://img.shields.io/badge/AWS-SQS-FF4F8B?style=flat-square&logo=aws-sqs&logoColor=white)
+
+**GCP**  
+![GCE](https://img.shields.io/badge/GCP-Compute%20Engine-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![GKE](https://img.shields.io/badge/GCP-GKE-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/GCP-Cloud%20Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/GCP-BigQuery-4285F4?style=flat-square&logo=google-bigquery&logoColor=white)
+![Cloud Storage](https://img.shields.io/badge/GCP-Storage-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Cloud Functions](https://img.shields.io/badge/GCP-Cloud%20Functions-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Pub/Sub](https://img.shields.io/badge/GCP-Pub%2FSub-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Firestore](https://img.shields.io/badge/GCP-Firestore-4285F4?style=flat-square&logo=firebase&logoColor=white)
+![Cloud Build](https://img.shields.io/badge/GCP-Cloud%20Build-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Artifact Registry](https://img.shields.io/badge/GCP-Artifact%20Registry-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+
+**Azure**  
+![AKS](https://img.shields.io/badge/Azure-AKS-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure-Functions-0089D6?style=flat-square&logo=azure-functions&logoColor=white)
+![Blob Storage](https://img.shields.io/badge/Azure-Blob%20Storage-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Azure-Cosmos%20DB-0089D6?style=flat-square&logo=azure-cosmos-db&logoColor=white)
+![App Service](https://img.shields.io/badge/Azure-App%20Service-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure-DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white)
+![Virtual Machines](https://img.shields.io/badge/Azure-VMs-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+
+### **Containers & Orchestration**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
+
+### **Infrastructure as Code**
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Terragrunt](https://img.shields.io/badge/Terragrunt-000000?style=for-the-badge)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=for-the-badge&logo=aws&logoColor=white)
+
+### **CI/CD & Automation**
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-2C5263?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-ef502f?style=for-the-badge&logo=argo&logoColor=white)
+### **Monitoring & Security**
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![New Relic](https://img.shields.io/badge/NewRelic-008C99?style=for-the-badge&logo=newrelic&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Wiz](https://img.shields.io/badge/Wiz-6936F5?style=for-the-badge)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
+
+### **Data Engineering**
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=Snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+
+### **AI & GenAI**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+
+### **Languages & Scripting**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+![Golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+---
+
+## 📈 **GitHub Stats**
+
 <p align="center">
-  <em>
-    Passionate about crafting elegant solutions to complex problems. 
-    <br>My code is my canvas, and innovation is my paintbrush.
-  </em>
+  <img src="https://github-readme-stats.vercel.app/api?username=bhomesh&show_icons=true&theme=radical" width="48%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhomesh&theme=radical" width="48%">
 </p>
 
-<div align="center">
+---
 
-<h2><b>🧑‍💻 More About Me</b></h2>
-    <br>
-    <p>
-      🔭 I'm currently working on revolutionizing web experiences
-      <br>🌱 I'm currently learning WEB3 and DevOps
-      <br>👯 I'm looking to collaborate on open-source projects
-      <br>💬 Ask me about JavaScript, React, or any tech-related stuff
-      <br>⚡ Fun fact: I can solve a Rubik's cube in under 1 minute!
-    </p>
-</div>
+## ✍️ Latest Blog Post
 
 <div align="center">
-  <h3>When I'm not coding, you'll find me:</h3>
-  <p>
-    🎸 Playing Games | 📚 Reading Self-Help Books | 🏋️‍♂️ At the gym | 🌿 Tending to my plants
-  </p>
-</div>
-
-<h2 align="center">🛠️ Technologies & Tools</h2>
-<div class="flex flex-row justify-center items-center">
-
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-  ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-  ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
-  ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-  ![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django)
-  ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white)
-  ![Aceternity UI](https://img.shields.io/badge/Aceternity%20UI-000000?style=for-the-badge&logo=react&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-  ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
-  ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
-  ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-  ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white)
-  ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-  ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-  ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-  ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-  ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-  ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-  ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
-  ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
-  ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
-  ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
-  ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-  ![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
-  ![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
-  ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-  ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-  ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-</div>
- 
-<h2 align="center">📈 GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhomesh&show_icons=true&theme=radical" alt="Bhomesh's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhomesh&theme=radical" alt="Bhomesh's GitHub Streak" width="51%" />
-</p>
-
-<h2 align="center">🤝 Open to Collaboration</h2>
-
-<p align="center">
-  I'm always excited to work on new projects and collaborate with fellow developers. If you have any interesting ideas or projects, feel free to reach out!
-</p>
-
-<h2 align="center">📚 Latest Blog Posts</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://medium.com/@BhomeshRazdan/supercharge-your-zsh-setup-with-these-essential-plugins-2d3dfbb7cec0">
-          <img src="https://img.shields.io/badge/Supercharge%20your%20zsh%20setup-Read%20Now-brightgreen?style=for-the-badge&logo=medium" alt="Blog Post - Supercharge your zsh setup">
-        </a>
-      </td>
-    </tr>
-    <!-- Add more rows here for additional blog posts -->
-  </table>
-</div>
-
-<p align="center">
-  <a href="https://medium.com/@BhomeshRazdan">
-    <img src="https://img.shields.io/badge/Read%20More%20on%20Medium-Follow%20Me-black?style=for-the-badge&logo=medium" alt="Follow on Medium">
+  <a href="https://medium.com/@BhomeshRazdan/supercharge-your-zsh-setup-with-these-essential-plugins-2d3dfbb7cec0">
+    <img src="https://img.shields.io/badge/Supercharge%20Your%20Zsh%20Setup-Read%20Now-brightgreen?style=for-the-badge&logo=medium">
   </a>
-</p>
+</div>
+
+---
+
+## 🤝 Open to Collaboration
+
+If you're working on **DevOps tooling, IaC modules, Kubernetes operators, or automation frameworks**,  
+I'm always excited to collaborate. Let's build something awesome together!
+
+---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=bhomesh&color=blueviolet" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=bhomesh&color=blueviolet">
   <p>⭐️ From <a href="https://github.com/bhomesh">Bhomesh</a></p>
 </div>
